@@ -1,0 +1,14 @@
+name: Hello Worl
+
+on:
+  push:
+    branches: [main]
+
+jobs:  
+  test: 
+    runs-on: ubuntu-latest
+    permissions: 
+     contents: write
+    steps:
+      - name: 22f1001877@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
